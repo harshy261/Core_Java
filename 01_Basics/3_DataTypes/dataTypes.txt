@@ -1,0 +1,21 @@
+Explanation:
+Class Declaration:
+
+public class DataTypes { ... }: This defines a public class named DataTypes. A class is a blueprint for creating objects and contains methods and variables.
+Main Method:
+
+public static void main(String args[]) { ... }: This is the main method, which is the entry point of any Java application. When you run the program, the code inside this method is executed.
+
+Variable Declarations and Initializations:
+
+int num1 = 9;: Declares an integer variable named num1 and assigns it the value 9.
+byte by = 127;: Declares a byte variable named by and assigns it the value 127. The byte type can hold values from -128 to 127.
+short sh = 558;: Declares a short variable named sh and assigns it the value 558. The short type can hold larger values than byte.
+long l = 5854l;: Declares a long variable named l and assigns it the value 5854. The long type can hold even larger values. The l at the end indicates that it's a long literal.
+float f = 5.8f;: Declares a float variable named f and assigns it the value 5.8. The f at the end indicates that it's a float literal.
+double d = 5.8;: Declares a double variable named d and assigns it the value 5.8. The double type is used for decimal values and is more precise than float.
+char c = 'k';: Declares a char variable named c and assigns it the value 'k'. The char type is used to store a single character.
+boolean b = true;: Declares a boolean variable named b and assigns it the value true. The boolean type can hold only two values: true or false.
+
+Summary:
+This Java program demonstrates the declaration and initialization of different primitive data types in Java, including int, byte, short, long, float, double, char, and boolean. Each variable is assigned a value to show how these data types can be used.

@@ -1,0 +1,14 @@
+Arithmetic Operators in Java:
+
+
+Addition (+): Adds two operands.
+
+Subtraction (-): Subtracts the second operand from the first.
+
+Multiplication (*): Multiplies two operands.
+
+Division (/): Divides the first operand by the second. If both operands are integers, the result is an integer (fractional part is discarded).
+
+Modulus (%): Returns the remainder of the division of the first operand by the second.
+
+

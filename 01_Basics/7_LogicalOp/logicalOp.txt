@@ -1,0 +1,9 @@
+Logical Operators in Java:
+
+
+AND (&&): Returns true if both operands are true.
+
+OR (||): Returns true if at least one of the operands is true.
+
+NOT (!): Inverts the value of the operand. If the operand is true, it returns false, and vice versa.
+

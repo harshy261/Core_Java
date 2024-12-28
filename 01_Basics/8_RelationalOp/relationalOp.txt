@@ -1,0 +1,14 @@
+Relational Operators in Java:
+
+
+Less than (<): Checks if the value of the left operand is less than the value of the right operand.
+
+Greater than (>): Checks if the value of the left operand is greater than the value of the right operand.
+
+Less than or equal to (<=): Checks if the value of the left operand is less than or equal to the value of the right operand.
+
+Greater than or equal to (>=): Checks if the value of the left operand is greater than or equal to the value of the right operand.
+
+Equal to (==): Checks if the value of the left operand is equal to the value of the right operand.
+
+Not equal to (!=): Checks if the value of the left operand is not equal to the value of the right operand.

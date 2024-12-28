@@ -1,0 +1,22 @@
+public class First {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+Explanation:
+
+Class Declaration: public class First declares a public class named First. In Java, every application must have at least one class definition that contains the main method.
+
+Main Method: public static void main(String[] args) is the entry point of any Java application. When you run the program, the Java Virtual Machine (JVM) looks for the main method to start execution.
+
+public: The method is accessible from anywhere.
+static: The method belongs to the class, not instances of the class.
+void: The method does not return any value.
+String[] args: The method accepts a single argument, an array of String objects. This can be used to pass command-line arguments to the program.
+
+Print Statement: System.out.println("Hello, World!"); prints the string "Hello, World!" to the console.
+
+System.out is a standard output stream.
+println is a method that prints the argument passed to it and then terminates the line.
+This simple program demonstrates the basic structure of a Java application. You can expand it by adding more methods and functionality as needed.

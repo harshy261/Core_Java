@@ -1,0 +1,8 @@
+This Java file defines a class named Variables with a main method.
+The main method is the entry point of the program and contains the following actions:
+
+It prints the result of 3 + 5 to the console.
+It prints the result of 8 + 7 to the console without moving to a new line.
+It declares two integer variables, num1 and num2, assigns them the values 3 and 5 respectively.
+It calculates the sum of num1 and num2, stores the result in a variable named result, and prints this result to the console.
+The commented-out lines show an alternative way to perform the same addition operation using variables.

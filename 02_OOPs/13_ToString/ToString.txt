@@ -1,0 +1,72 @@
+Concept of toString() Method in Java:
+The toString() method in Java is used to provide a string representation of an object. By default, the toString() method is defined in the Object class, and it returns a string that consists of the class name followed by the "@" character and the object's hashcode. However, it is common practice to override the toString() method in your classes to provide a more meaningful string representation of the object.
+
+Key Concepts:
+Default toString() Method:
+
+The default toString() method in the Object class returns a string that includes the class name and the object's hashcode.
+Example:
+public String toString() {
+    return getClass().getName() + "@" + Integer.toHexString(hashCode());
+}
+
+Overriding toString() Method:
+
+You can override the toString() method in your class to provide a custom string representation of the object.
+Example:
+class Laptop {
+    String model;
+    int price;
+
+    @Override
+    public String toString() {
+        return "Laptop [model=" + model + ", price=" + price + "]";
+    }
+}
+
+Using toString() Method:
+
+When you print an object using System.out.println(), the toString() method is automatically called to get the string representation of the object.
+Example:
+Laptop obj = new Laptop();
+obj.model = "Lenevo Yoga";
+obj.price = 1000;
+System.out.println(obj); // Calls obj.toString()
+
+
+
+
+
+Relevant Interview Questions and Answers:
+Q: What is the toString() method in Java?
+
+A: The toString() method in Java is used to provide a string representation of an object. By default, it returns a string that includes the class name and the object's hashcode, but it is often overridden to provide a more meaningful representation.
+Q: Why should you override the toString() method?
+
+A: You should override the toString() method to provide a custom string representation of your object that is more meaningful and useful for debugging and logging purposes.
+Q: What is the default implementation of the toString() method?
+
+A: The default implementation of the toString() method in the Object class returns a string that includes the class name followed by the "@" character and the object's hashcode.
+Q: How do you override the toString() method?
+
+A: You override the toString() method by defining a method with the same signature in your class and providing a custom implementation. For example:
+@Override
+public String toString() {
+    return "Laptop [model=" + model + ", price=" + price + "]";
+}
+
+Q: What is the purpose of the equals() method in Java?
+
+A: The equals() method is used to compare two objects for equality. By default, it compares the memory addresses of the objects, but it is often overridden to compare the actual content of the objects.
+Q: How do you override the equals() method?
+
+A: You override the equals() method by defining a method with the same signature in your class and providing a custom implementation. For example:
+@Override
+public boolean equals(Object obj) {
+    if (this == obj)
+        return true;
+    if (obj == null || getClass() != obj.getClass())
+        return false;
+    Laptop that = (Laptop) obj;
+    return this.model.equals(that.model) && this.price == that.price;
+}

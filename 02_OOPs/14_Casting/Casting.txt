@@ -1,0 +1,80 @@
+Concept of Casting in Java:
+Casting in Java is the process of converting one type of object or variable into another type. There are two main types of casting: primitive type casting and reference type casting. Casting is used to ensure that the data types are compatible and to access specific methods or properties of an object.
+
+Key Concepts:
+Primitive Type Casting:
+
+Primitive type casting involves converting one primitive data type into another. There are two types of primitive type casting:
+
+Implicit Casting (Widening): Automatically converting a smaller type to a larger type (e.g., int to double).
+Explicit Casting (Narrowing): Manually converting a larger type to a smaller type (e.g., double to int).
+Example:
+double d = 4.5;
+int i = (int) d; // Explicit casting (narrowing)
+System.out.println(i); // Output: 4
+
+Reference Type Casting:
+
+Reference type casting involves converting one type of object reference into another type. There are two types of reference type casting:
+
+Upcasting: Converting a subclass reference to a superclass reference. This is done implicitly.
+Downcasting: Converting a superclass reference to a subclass reference. This must be done explicitly.
+Example:
+
+class A {
+    public void show1() {
+        System.out.println("in show A");
+    }
+}
+
+class B extends A {
+    public void show2() {
+        System.out.println("in show B");
+    }
+}
+
+public class Casting {
+    public static void main(String[] args) {
+        A obj = new B(); // Upcasting
+        obj.show1(); // Calls the method in class A
+
+        B obj1 = (B) obj; // Downcasting
+        obj1.show2(); // Calls the method in class B
+    }
+}
+
+
+Relevant Interview Questions and Answers:
+Q: What is casting in Java?
+
+A: Casting in Java is the process of converting one type of object or variable into another type. It ensures that the data types are compatible and allows access to specific methods or properties of an object.
+Q: What are the types of casting in Java?
+
+A: The types of casting in Java are:
+Primitive Type Casting: Converting one primitive data type into another.
+Reference Type Casting: Converting one type of object reference into another type.
+Q: What is the difference between implicit and explicit casting?
+
+A: Implicit casting (widening) is automatically performed by the compiler when converting a smaller type to a larger type. Explicit casting (narrowing) requires manual conversion when converting a larger type to a smaller type.
+Q: What is upcasting in Java?
+
+A: Upcasting is the process of converting a subclass reference to a superclass reference. It is done implicitly and allows the subclass object to be treated as an instance of the superclass.
+Q: What is downcasting in Java?
+
+A: Downcasting is the process of converting a superclass reference to a subclass reference. It must be done explicitly and allows access to the subclass-specific methods and properties.
+Q: Can you give an example of primitive type casting?
+
+A: Yes, an example of primitive type casting is:
+double d = 4.5;
+int i = (int) d; // Explicit casting (narrowing)
+System.out.println(i); // Output: 4
+
+
+Q: Can you give an example of reference type casting?
+
+A: Yes, an example of reference type casting is:
+A obj = new B(); // Upcasting
+obj.show1(); // Calls the method in class A
+
+B obj1 = (B) obj; // Downcasting
+obj1.show2(); // Calls the method in class B

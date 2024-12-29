@@ -1,0 +1,67 @@
+Concept of Method Overloading in Java:
+Method overloading in Java is a feature that allows a class to have more than one method with the same name, but different parameters. The parameters can differ in type, number, or both. Method overloading increases the readability of the program and allows methods to handle different types of input.
+
+Key Concepts:
+Same Method Name:
+
+All overloaded methods must have the same name.
+Different Parameters:
+
+The parameters must differ in type, number, or both.
+Compile-Time Polymorphism:
+
+Method overloading is an example of compile-time polymorphism. The method to be called is determined at compile time based on the method signature.
+
+
+
+Explanation:
+Class Declaration:
+
+class Calculator { ... }: This defines a class named Calculator. This class contains three overloaded add methods.
+Method add (int, int):
+
+public int add(int n1, int n2) { ... }: This method takes two integer parameters and returns their sum.
+Method add (double, double):
+
+public double add(double n1, double n2) { ... }: This method takes two double parameters and returns their sum.
+Method add (int, int, int):
+
+public int add(int n1, int n2, int n3) { ... }: This method takes three integer parameters and returns their sum.
+Public Class MethodOverloading:
+
+public class MethodOverloading { ... }: This defines a public class named MethodOverloading. This class contains the main method, which is the entry point of the Java application.
+
+Main Method:
+
+public static void main(String[] args) { ... }: This is the main method. When you run the program, the code inside this method is executed.
+Calculator obj = new Calculator();: Creates an object obj of the Calculator class.
+int r1 = obj.add(3, 4);: Calls the add method with two integer arguments. The method add(int, int) is called, and the result (7) is assigned to r1.
+System.out.println(r1);: Prints the value of r1 to the console, which is 7.
+double r2 = obj.add(3.5, 4.5);: Calls the add method with two double arguments. The method add(double, double) is called, and the result (8.0) is assigned to r2.
+System.out.println(r2);: Prints the value of r2 to the console, which is 8.0.
+int r3 = obj.add(1, 2, 3);: Calls the add method with three integer arguments. The method add(int, int, int) is called, and the result (6) is assigned to r3.
+System.out.println(r3);: Prints the value of r3 to the console, which is 6.
+
+
+
+Relevant Interview Questions and Answers:
+Q: What is method overloading in Java?
+
+A: Method overloading in Java is a feature that allows a class to have more than one method with the same name, but different parameters (type, number, or both).
+Q: Why is method overloading useful?
+
+A: Method overloading increases the readability of the program and allows methods to handle different types of input, making the code more flexible and easier to maintain.
+Q: Can we overload methods with the same parameter types but different return types?
+
+A: No, method overloading is not based on return types. The parameter list must be different for methods to be considered overloaded.
+
+Q: What is the difference between method overloading and method overriding?
+
+A: Method overloading occurs within the same class and involves methods with the same name but different parameters. Method overriding occurs in a subclass and involves redefining a method from the superclass with the same name, parameters, and return type.
+
+Q: Can constructors be overloaded in Java?
+
+A: Yes, constructors can be overloaded in Java. A class can have multiple constructors with different parameter lists.
+Q: Is it possible to overload static methods?
+
+A: Yes, static methods can be overloaded just like instance methods.

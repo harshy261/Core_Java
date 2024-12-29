@@ -1,0 +1,8 @@
+if-else if-else Statements in Java:
+
+
+if Statement: Executes a block of code if its condition evaluates to true.
+
+else if Statement: Specifies a new condition to test if the previous if condition is false.
+
+else Statement: Executes a block of code if all previous conditions are false.

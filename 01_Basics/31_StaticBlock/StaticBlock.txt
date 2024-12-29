@@ -1,0 +1,37 @@
+Concept of Static Block in Java:
+In Java, a static block (also known as a static initialization block) is a block of code that is executed when the class is first loaded into memory. Static blocks are used to initialize static variables or to perform any setup that needs to be done once for the class.
+
+Key Concepts:
+Class-Level Initialization:
+
+Static blocks are used to initialize static variables or perform setup tasks that need to be done once for the class.
+Executed Once:
+
+Static blocks are executed only once, when the class is loaded into memory by the Java Virtual Machine (JVM).
+Order of Execution:
+
+Static blocks are executed in the order they appear in the class, before any static methods or constructors are called.
+
+
+
+
+
+Relevant Interview Questions and Answers:
+Q: What is a static block in Java?
+
+A: A static block in Java is a block of code that is executed when the class is first loaded into memory. It is used to initialize static variables or perform setup tasks that need to be done once for the class.
+Q: When is a static block executed?
+
+A: A static block is executed only once, when the class is loaded into memory by the Java Virtual Machine (JVM).
+Q: Can a class have multiple static blocks?
+
+A: Yes, a class can have multiple static blocks. They are executed in the order they appear in the class.
+Q: What is the purpose of a static block?
+
+A: The purpose of a static block is to initialize static variables or perform setup tasks that need to be done once for the class. It is useful for complex initialization that cannot be done in a single line.
+Q: Can a static block access instance variables?
+
+A: No, a static block cannot access instance variables directly because it is executed before any instances of the class are created. It can only access static variables and methods.
+Q: How do you force a class to be loaded in Java?
+
+A: You can force a class to be loaded using the Class.forName("ClassName") method. This triggers the execution of the static block.

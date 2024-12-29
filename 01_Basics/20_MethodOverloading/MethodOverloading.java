@@ -14,8 +14,6 @@ class Calculator
 	}
 }
 
-
-
 public class MethodOverloading {
     public static void main(String[] args) {
 		Calculator obj=new Calculator();

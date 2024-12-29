@@ -1,0 +1,60 @@
+Concept of Multi-Dimensional Arrays in Java:
+A multi-dimensional array in Java is an array of arrays. It allows you to store data in a tabular form, such as a matrix or a table. The most commonly used multi-dimensional array is the two-dimensional array.
+
+Key Concepts:
+Declaration:
+
+Multi-dimensional arrays are declared by specifying the type of elements they will hold, followed by square brackets [] for each dimension.
+Initialization:
+
+Multi-dimensional arrays can be initialized at the time of declaration or later using the new keyword.
+Accessing Elements:
+
+Elements in a multi-dimensional array are accessed using their row and column indices.
+Length:
+
+The length of each dimension can be accessed using the length property.
+
+
+
+
+Relevant Interview Questions and Answers:
+Q: What is a multi-dimensional array in Java?
+
+A: A multi-dimensional array in Java is an array of arrays. It allows you to store data in a tabular form, such as a matrix or a table.
+Q: How do you declare a two-dimensional array in Java?
+
+A: A two-dimensional array can be declared as follows:
+int[][] nums = new int[3][4]; // 3 rows and 4 columns
+
+Q: How do you initialize a two-dimensional array in Java?
+
+A: A two-dimensional array can be initialized at the time of declaration or later using the new keyword. For example:
+int[][] nums = {
+    {1, 2, 3, 4},
+    {5, 6, 7, 8},
+    {9, 10, 11, 12}
+};
+
+Q: How do you access elements in a two-dimensional array?
+
+A: Elements in a two-dimensional array are accessed using their row and column indices. For example, nums[0][1] accesses the element in the first row and second column.
+Q: What is the difference between a one-dimensional and a multi-dimensional array?
+
+A: A one-dimensional array stores a single list of elements, while a multi-dimensional array stores multiple lists of elements in a tabular form.
+Q: How do you iterate over a two-dimensional array in Java?
+
+A: You can iterate over a two-dimensional array using a traditional for loop or an enhanced for loop. For example:
+for (int i = 0; i < nums.length; i++) {
+    for (int j = 0; j < nums[i].length; j++) {
+        System.out.print(nums[i][j] + " ");
+    }
+    System.out.println();
+}
+// or
+for (int[] row : nums) {
+    for (int element : row) {
+        System.out.print(element + " ");
+    }
+    System.out.println();
+}

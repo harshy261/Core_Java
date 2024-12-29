@@ -1,0 +1,76 @@
+Concept of Access Modifiers in Java:
+Access modifiers in Java are keywords that set the accessibility (visibility) of classes, methods, and variables. They help to control where these elements can be accessed from, ensuring encapsulation and security in your code.
+
+Types of Access Modifiers:
+Public:
+
+Keyword: public
+Visibility: Accessible from any other class.
+Usage: Used when you want the class, method, or variable to be accessible from any other class.
+Example:
+public class MyClass {
+    public int myVar;
+    public void myMethod() { }
+}
+
+Private:
+
+Keyword: private
+Visibility: Accessible only within the same class.
+Usage: Used to restrict access to the class, method, or variable to the class itself.
+Example:
+public class MyClass {
+    private int myVar;
+    private void myMethod() { }
+}
+
+Protected:
+
+Keyword: protected
+Visibility: Accessible within the same package and by subclasses in other packages.
+Usage: Used when you want to allow access to the class, method, or variable within the same package and to subclasses.
+Example:
+public class MyClass {
+    protected int myVar;
+    protected void myMethod() { }
+}
+
+
+Default (Package-Private):
+
+Keyword: No keyword (default access)
+Visibility: Accessible only within the same package.
+Usage: Used when you want to restrict access to the class, method, or variable to the same package.
+Example:
+class MyClass {
+    int myVar;
+    void myMethod() { }
+}
+
+
+
+
+
+Relevant Interview Questions and Answers:
+Q: What are access modifiers in Java?
+
+A: Access modifiers in Java are keywords that set the accessibility (visibility) of classes, methods, and variables. They help to control where these elements can be accessed from, ensuring encapsulation and security in your code.
+Q: What are the different types of access modifiers in Java?
+
+A: The different types of access modifiers in Java are:
+public: Accessible from any other class.
+private: Accessible only within the same class.
+protected: Accessible within the same package and by subclasses in other packages.
+Default (no keyword): Accessible only within the same package.
+Q: What is the difference between public and private access modifiers?
+
+A: The public access modifier allows a class, method, or variable to be accessed from any other class, while the private access modifier restricts access to the same class only.
+Q: When would you use the protected access modifier?
+
+A: The protected access modifier is used when you want to allow access to a class, method, or variable within the same package and to subclasses in other packages. It is commonly used in inheritance scenarios.
+Q: What is the default access modifier in Java?
+
+A: The default access modifier (also known as package-private) is used when no access modifier is specified. It allows access only within the same package.
+Q: Can a private method be overridden in Java?
+
+A: No, a private method cannot be overridden in Java because it is not accessible outside the class in which it is defined.

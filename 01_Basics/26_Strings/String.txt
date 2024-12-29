@@ -1,0 +1,50 @@
+Concept of Strings in Java:
+In Java, a String is an object that represents a sequence of characters. Strings are widely used in Java programming, and the String class provides many methods for manipulating strings.
+
+Key Concepts:
+String Declaration and Initialization:
+
+Strings can be declared and initialized using string literals or the new keyword.
+Immutability:
+
+Strings in Java are immutable, meaning once a String object is created, its value cannot be changed. Any modification to a string results in the creation of a new String object.
+String Methods:
+
+The String class provides various methods for string manipulation, such as length(), charAt(), substring(), concat(), equals(), hashCode(), and more.
+
+
+
+
+Relevant Interview Questions and Answers:
+Q: What is a String in Java?
+
+A: A String in Java is an object that represents a sequence of characters. It is widely used for storing and manipulating text.
+Q: How do you create a String in Java?
+
+A: A String can be created using string literals or the new keyword. For example:
+String str1 = "Hello"; // Using string literal
+String str2 = new String("Hello"); // Using new keyword
+
+Q: What does it mean that strings are immutable in Java?
+
+A: Strings in Java are immutable, meaning once a String object is created, its value cannot be changed. Any modification to a string results in the creation of a new String object.
+Q: How do you concatenate strings in Java?
+
+A: Strings can be concatenated using the + operator or the concat() method. For example:
+String str1 = "Hello";
+String str2 = "World";
+String result = str1 + " " + str2; // Using + operator
+String result2 = str1.concat(" ").concat(str2); // Using concat() method
+
+Q: What is the difference between == and equals() when comparing strings?
+
+A: The == operator compares the reference (memory address) of the strings, while the equals() method compares the actual content of the strings. For example:
+String str1 = new String("Hello");
+String str2 = new String("Hello");
+System.out.println(str1 == str2); // false, different references
+System.out.println(str1.equals(str2)); // true, same content
+
+Q: What are some common methods of the String class?
+
+A: Some common methods of the String class include length(), charAt(), substring(), concat(), equals(), hashCode(), toUpperCase(), toLowerCase(), trim(), and replace().
+

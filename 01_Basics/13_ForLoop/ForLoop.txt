@@ -1,0 +1,15 @@
+For Loop in Java:
+
+
+The for loop is a control flow statement that allows code to be executed repeatedly based on a given boolean condition. It is typically used when the number of iterations is known before entering the loop.
+
+for (initialization; condition; update) 
+{
+    // code to be executed
+}
+
+initialization: This step is executed once before the loop starts. It is typically used to initialize a loop control variable.
+
+condition: This expression is evaluated before each iteration. If it evaluates to true, the loop body is executed. If it evaluates to false, the loop terminates.
+
+update: This step is executed after each iteration of the loop. It is typically used to update the loop control variable.

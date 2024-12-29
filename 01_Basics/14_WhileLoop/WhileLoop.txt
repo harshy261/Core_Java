@@ -1,0 +1,11 @@
+While Loop in Java:
+
+
+The while loop is a control flow statement that allows code to be executed repeatedly based on a given boolean condition. The loop continues to execute as long as the condition evaluates to true.
+
+while (condition) 
+{
+    // code to be executed
+}
+
+condition: This expression is evaluated before each iteration. If it evaluates to true, the loop body is executed. If it evaluates to false, the loop terminates.

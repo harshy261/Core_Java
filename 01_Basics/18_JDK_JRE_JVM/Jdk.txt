@@ -1,0 +1,17 @@
+Concepts of JDK, JRE, and JVM:
+JDK (Java Development Kit):
+
+What it is: The JDK is a software development kit used to develop Java applications.
+What's included: It includes the JRE (Java Runtime Environment) and development tools like compilers and debuggers.
+Analogy: Think of the JDK as a toolbox for building Java applications. It has all the tools you need to write, compile, and debug your code.
+JRE (Java Runtime Environment):
+
+What it is: The JRE is a set of software tools that provide the environment in which Java applications run.
+What's included: It includes the JVM (Java Virtual Machine) and library classes that Java applications need to run.
+Analogy: Think of the JRE as a theater where a play (Java application) is performed. It provides the stage and the necessary props (library classes) for the play to run.
+
+JVM (Java Virtual Machine):
+
+What it is: The JVM is a virtual machine that interprets and executes Java bytecode.
+What's included: It includes the interpreter that converts bytecode into machine code that the computer's processor can execute.
+Analogy: Think of the JVM as a translator who translates a script (Java bytecode) into actions that actors (the computer's processor) can perform.

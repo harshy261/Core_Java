@@ -1,0 +1,48 @@
+Concept of super Keyword and super() Method in Java:
+In Java, the super keyword is used to refer to the immediate parent class of the current class. It is used to access the parent class's methods, constructors, and variables. The super() method is a special form of the super keyword that is used to call the constructor of the parent class.
+
+Key Concepts:
+Accessing Parent Class Members:
+
+The super keyword can be used to call methods and access variables of the parent class from the child class.
+Calling Parent Class Constructor:
+
+The super() method is used to call the constructor of the parent class. This is useful for initializing the parent class's fields when creating an instance of the child class.
+Constructor Chaining:
+
+When a child class constructor calls super(), it ensures that the parent class constructor is executed before the child class constructor. This is known as constructor chaining.
+
+
+Relevant Interview Questions and Answers:
+Q: What is the super keyword in Java?
+
+A: The super keyword in Java is used to refer to the immediate parent class of the current class. It is used to access the parent class's methods, constructors, and variables.
+Q: What is the purpose of the super() method in Java?
+
+A: The super() method is used to call the constructor of the parent class. It ensures that the parent class constructor is executed before the child class constructor, which is important for proper initialization.
+Q: Can you use super to call a parent class method?
+
+A: Yes, you can use super to call a method defined in the parent class. For example:
+class Parent {
+    void display() {
+        System.out.println("Parent display");
+    }
+}
+
+class Child extends Parent {
+    void display() {
+        super.display(); // Calls the display method of Parent
+        System.out.println("Child display");
+    }
+}
+
+
+Q: What is constructor chaining in Java?
+
+A: Constructor chaining is the process of calling one constructor from another constructor within the same class or calling the parent class constructor from the child class constructor. It ensures that the constructors are executed in a specific order.
+Q: Can you use super() and this() in the same constructor?
+
+A: No, you cannot use super() and this() in the same constructor because both must be the first statement in the constructor. You can only call one of them.
+Q: What happens if you do not explicitly call super() in a child class constructor?
+
+A: If you do not explicitly call super() in a child class constructor, the Java compiler automatically inserts a call to the default constructor of the parent class. If the parent class does not have a default constructor, a compilation error will occur.

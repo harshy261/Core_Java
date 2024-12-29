@@ -1,0 +1,40 @@
+A class in Java is a blueprint for creating objects. It defines a datatype by bundling data and methods that work on the data into one single unit. A class can contain fields (variables) and methods to describe the behavior of an object.
+
+Key Concepts:
+
+Class Declaration:
+A class is declared using the class keyword followed by the class name.
+The class body is enclosed within curly braces {}.
+
+Fields (Variables):
+Fields are variables that hold the state of an object.
+They are declared inside the class but outside any method.
+
+Methods:
+Methods define the behavior of an object.
+They are functions defined inside the class that operate on the fields of the class.
+
+Object:
+An object is an instance of a class.
+It is created using the new keyword followed by the class constructor.
+
+
+
+Class Declaration:
+
+class Student { ... }: This defines a class named Student. A class is a blueprint for creating objects and contains fields (variables) and methods (functions) that define the behavior of the objects.
+Fields (Variables):
+
+String name;: Declares a field named name of type String to store the name of the student.
+int age;: Declares a field named age of type int to store the age of the student.
+int rollNo;: Declares a field named rollNo of type int to store the roll number of the student.
+
+Public Class Declaration:
+
+public class Class { ... }: This defines a public class named Class. This class contains the main method, which is the entry point of the Java application. Note: It is generally not recommended to name a class Class as it can be confusing. A more descriptive name should be used.
+Main Method:
+
+public static void main(String[] args) { ... }: This is the main method, which is the entry point of any Java application. When you run the program, the code inside this method is executed.
+Creating an Object:
+
+Student s1 = new Student();: This line creates an object s1 of the Student class using the new keyword and the class constructor Student(). This allocates memory for the new object and initializes its fields.

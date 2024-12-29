@@ -1,0 +1,39 @@
+Concept of Static Variables in Java:
+In Java, a static variable (also known as a class variable) is a variable that belongs to the class rather than to any specific instance of the class. This means that all instances of the class share the same static variable. Static variables are used when you want to have a common property for all objects of a class.
+
+Key Concepts:
+Class-Level Variable:
+
+A static variable is declared using the static keyword and is shared among all instances of the class.
+Single Copy:
+
+Only one copy of a static variable exists, regardless of how many instances of the class are created.
+Accessing Static Variables:
+
+Static variables can be accessed directly using the class name, without creating an instance of the class.
+
+
+
+Relevant Interview Questions and Answers:
+Q: What is a static variable in Java?
+
+A: A static variable in Java is a variable that belongs to the class rather than to any specific instance of the class. It is shared among all instances of the class.
+Q: How do you declare a static variable in Java?
+
+A: A static variable is declared using the static keyword. For example:
+static int count;
+
+Q: How is a static variable different from an instance variable?
+
+A: An instance variable is specific to each instance of a class, while a static variable is shared among all instances of the class. There is only one copy of a static variable, regardless of how many instances of the class are created.
+Q: How do you access a static variable in Java?
+
+A: A static variable can be accessed directly using the class name, without creating an instance of the class. For example:
+Mobile.name = "SmartPhone";
+
+Q: Can static variables be accessed through an instance of the class?
+
+A: Yes, static variables can be accessed through an instance of the class, but it is not recommended. It is better to access static variables using the class name for clarity.
+Q: What is the use of static variables in Java?
+
+A: Static variables are used when you want to have a common property for all objects of a class. For example, a static variable can be used to keep track of the number of instances created for a class.

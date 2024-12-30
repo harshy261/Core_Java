@@ -1,5 +1,10 @@
-Ternary Operator in Java:
+*******************************************************************************************************
 
+                                            Explanation:
+
+*******************************************************************************************************
+
+Ternary Operator in Java:
 
 The ternary operator is a shorthand way of writing an if-else statement. It is also known as the conditional operator. It takes three operands and is used to evaluate a boolean expression. 
 

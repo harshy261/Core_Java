@@ -1,5 +1,10 @@
-Switch Statement in Java:
+*******************************************************************************************************
 
+                                            Explanation:
+
+*******************************************************************************************************
+
+Switch Statement in Java:
 
 The switch statement is a control flow statement that allows a variable to be tested for equality against a list of values. Each value is called a case, and the variable being switched on is checked for each case.
 

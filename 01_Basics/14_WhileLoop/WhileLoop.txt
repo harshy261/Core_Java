@@ -1,5 +1,10 @@
-While Loop in Java:
+*******************************************************************************************************
 
+                                            Explanation:
+
+*******************************************************************************************************
+
+While Loop in Java:
 
 The while loop is a control flow statement that allows code to be executed repeatedly based on a given boolean condition. The loop continues to execute as long as the condition evaluates to true.
 

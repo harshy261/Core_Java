@@ -1,5 +1,10 @@
-For Loop in Java:
+*******************************************************************************************************
 
+                                            Explanation:
+
+*******************************************************************************************************
+
+For Loop in Java:
 
 The for loop is a control flow statement that allows code to be executed repeatedly based on a given boolean condition. It is typically used when the number of iterations is known before entering the loop.
 

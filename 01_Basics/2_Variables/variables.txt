@@ -1,4 +1,11 @@
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 This Java file defines a class named Variables with a main method.
+
 The main method is the entry point of the program and contains the following actions:
 
 It prints the result of 3 + 5 to the console.

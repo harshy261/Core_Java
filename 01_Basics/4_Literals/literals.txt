@@ -1,38 +1,21 @@
-Explanation:
-Class Declaration:
+*******************************************************************************************************
 
-public class Literals { ... }: This defines a public class named Literals. A class is a blueprint for creating objects and contains methods and variables.
-Main Method:
+                                            Explanation:
 
-public static void main(String[] args) { ... }: This is the main method, which is the entry point of any Java application. When you run the program, the code inside this method is executed.
+*******************************************************************************************************
 
 Variable Declarations and Initializations:
 
-int num1 = 0b101;: Declares an integer variable named num1 and assigns it the binary value 0b101 (which is 5 in decimal). The 0b prefix indicates a binary literal.
+1. int num1 = 0b101;: Declares an integer variable named num1 and assigns it the binary value 0b101 (which is 5 in decimal). The 0b prefix indicates a binary literal.
 
-System.out.println(num1);: Prints the value of num1 to the console.
+2. int num2 = 0x7E;: Declares an integer variable named num2 and assigns it the hexadecimal value 0x7E (which is 126 in decimal). The 0x prefix indicates a hexadecimal literal.
 
-int num2 = 0x7E;: Declares an integer variable named num2 and assigns it the hexadecimal value 0x7E (which is 126 in decimal). The 0x prefix indicates a hexadecimal literal.
+3. int num3 = 10_00_00_000;: Declares an integer variable named num3 and assigns it the value 1000000000. The underscores (_) are used for readability and are ignored by the compiler.
 
-System.out.println(num2);: Prints the value of num2 to the console.
+4.float num4 = 56;: Declares a float variable named num4 and assigns it the value 56. Even though 56 is an integer, it can be assigned to a float variable.
 
-int num3 = 10_00_00_000;: Declares an integer variable named num3 and assigns it the value 1000000000. The underscores (_) are used for readability and are ignored by the compiler.
+5. double num5 = 56;: Declares a double variable named num5 and assigns it the value 56. Similar to num4, 56 can be assigned to a double variable.
 
-System.out.println(num3);: Prints the value of num3 to the console.
+6. double num6 = 12e10;: Declares a double variable named num6 and assigns it the value 12e10 (which is 12 * 10^10 or 120000000000). The e notation is used for scientific notation.
 
-float num4 = 56;: Declares a float variable named num4 and assigns it the value 56. Even though 56 is an integer, it can be assigned to a float variable.
-
-System.out.println(num4);: Prints the value of num4 to the console.
-
-double num5 = 56;: Declares a double variable named num5 and assigns it the value 56. Similar to num4, 56 can be assigned to a double variable.
-
-System.out.println(num5);: Prints the value of num5 to the console.
-
-double num6 = 12e10;: Declares a double variable named num6 and assigns it the value 12e10 (which is 12 * 10^10 or 120000000000). The e notation is used for scientific notation.
-
-System.out.println(num6);: Prints the value of num6 to the console.
-
-// boolean num7 = 1;: This line is commented out. If uncommented, it would cause a compilation error because boolean variables can only be assigned true or false, not 1.
-
-Summary:
-This Java program demonstrates the use of different types of literals in Java, including binary, hexadecimal, integer with underscores for readability, float, double, and scientific notation. Each variable is printed to the console to show its value.
+7. boolean num7 = 1;: This line is commented out. If uncommented, it would cause a compilation error because boolean variables can only be assigned true or false, not 1.

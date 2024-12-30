@@ -1,21 +1,27 @@
-Concept of 3D Arrays in Java:
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 A three-dimensional (3D) array in Java is an array of arrays of arrays. It allows you to store data in a three-dimensional structure, which can be visualized as a cube or a collection of tables.
 
 Key Concepts:
+
 Declaration:
-
 3D arrays are declared by specifying the type of elements they will hold, followed by three sets of square brackets [][][].
+
 Initialization:
-
 3D arrays can be initialized at the time of declaration or later using the new keyword.
+
 Accessing Elements:
-
 Elements in a 3D array are accessed using three indices: one for the depth, one for the row, and one for the column.
-Length:
 
+Length:
 The length of each dimension can be accessed using the length property.
 
 
+*******************************************************************************************************
 
 
 Relevant Interview Questions and Answers:
@@ -50,3 +56,5 @@ for (int i = 0; i < nums.length; i++) {
     }
     System.out.println();
 }
+
+*******************************************************************************************************

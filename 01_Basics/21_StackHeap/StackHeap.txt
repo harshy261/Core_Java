@@ -1,41 +1,63 @@
-Concept of Stack and Heap in Java:
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 In Java, memory management is divided into two main areas: the stack and the heap. Understanding these areas is crucial for understanding how Java manages memory for variables and objects.
 
 Stack:
+
 What it is: The stack is a region of memory that stores method calls and local variables.
+
 Characteristics:
 LIFO (Last In, First Out): The stack operates in a LIFO manner, meaning the last method call added to the stack is the first one to be removed.
+
 Automatic Memory Management: Memory for local variables is automatically allocated and deallocated when methods are called and return.
+
 Fast Access: Access to stack memory is very fast because of its LIFO nature.
 Usage: Stores primitive data types (e.g., int, char) and references to objects in the heap.
 
+*******************************************************************************************************
 
 Heap:
+
 What it is: The heap is a region of memory used for dynamic memory allocation.
 Characteristics:
+
 Global Access: Objects stored in the heap are globally accessible and can be referenced from anywhere in the application.
+
 Garbage Collection: Java's garbage collector automatically manages memory in the heap, reclaiming memory used by objects that are no longer referenced.
+
 Slower Access: Access to heap memory is slower compared to stack memory due to the overhead of dynamic memory management.
+
 Usage: Stores objects and arrays.
 
+*******************************************************************************************************
 
 Relevant Interview Questions and Answers:
+
 Q: What is the difference between stack and heap memory in Java?
-
 A: The stack is used for static memory allocation and stores method calls and local variables. The heap is used for dynamic memory allocation and stores objects and arrays. The stack operates in a LIFO manner, while the heap is managed by the garbage collector.
+
+
 Q: How is memory allocated for objects in Java?
-
 A: Memory for objects is allocated in the heap. References to these objects are stored in the stack.
+
+
 Q: What is the role of the garbage collector in Java?
-
 A: The garbage collector automatically manages memory in the heap by reclaiming memory used by objects that are no longer referenced.
-Q: Can you explain the LIFO nature of the stack with an example?
 
+
+Q: Can you explain the LIFO nature of the stack with an example?
 A: In the stack, the last method call added is the first one to be removed. For example, if method A calls method B, and method B calls method C, method C will complete first, followed by method B, and finally method A.
 
+
 Q: What happens if the stack memory is full?
-
 A: If the stack memory is full, a StackOverflowError is thrown. This typically occurs due to deep or infinite recursion.
-Q: How does Java handle memory management for local variables and objects?
 
+
+Q: How does Java handle memory management for local variables and objects?
 A: Local variables are stored in the stack and are automatically deallocated when the method returns. Objects are stored in the heap and are managed by the garbage collector.
+
+*******************************************************************************************************

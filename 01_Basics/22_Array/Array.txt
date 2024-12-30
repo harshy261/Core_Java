@@ -1,19 +1,20 @@
-Concept of Arrays in Java:
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 An array in Java is a data structure that allows you to store multiple values of the same type in a single variable. Arrays are useful for storing collections of data, such as a list of numbers or a list of strings.
 
 Key Concepts:
-Declaration:
 
-Arrays are declared by specifying the type of elements they will hold, followed by square brackets [].
-Initialization:
+Declaration: Arrays are declared by specifying the type of elements they will hold, followed by square brackets [].
 
-Arrays can be initialized at the time of declaration or later using the new keyword.
-Accessing Elements:
+Initialization: Arrays can be initialized at the time of declaration or later using the new keyword.
 
-Elements in an array are accessed using their index, which starts from 0.
-Length:
+Accessing Elements: Elements in an array are accessed using their index, which starts from 0.
 
-The length of an array is fixed once it is created and can be accessed using the length property.
+Length: The length of an array is fixed once it is created and can be accessed using the length property.
 
 Array Declaration and Initialization:
 
@@ -30,17 +31,15 @@ The for loop iterates over the array and prints each element:
 The loop variable i starts at 0 and increments by 1 until it reaches 4.
 System.out.println(nums[i]);: Prints the element at index i of the array.
 
-
-
-
+*******************************************************************************************************
 
 Relevant Interview Questions and Answers:
 
 Q: What is an array in Java?
-
 A: An array in Java is a data structure that allows you to store multiple values of the same type in a single variable. It is useful for storing collections of data.
-Q: How do you declare and initialize an array in Java?
 
+
+Q: How do you declare and initialize an array in Java?
 A: An array can be declared and initialized as follows:
 int[] nums = new int[4]; // Declaration and initialization with size
 nums[0] = 4; // Assigning values
@@ -48,17 +47,20 @@ nums[1] = 8;
 nums[2] = 3;
 nums[3] = 9;
 
+
 Q: How do you access elements in an array?
-
 A: Elements in an array are accessed using their index, which starts from 0. For example, nums[0] accesses the first element of the array.
+
+
 Q: What is the length of an array?
-
 A: The length of an array is the number of elements it can hold. It is fixed once the array is created and can be accessed using the length property. For example, nums.length returns the length of the array nums.
+
+
 Q: Can you change the size of an array after it is created?
-
 A: No, the size of an array is fixed once it is created. If you need a resizable array, you can use the ArrayList class from the Java Collections Framework.
-Q: How do you iterate over an array in Java?
 
+
+Q: How do you iterate over an array in Java?
 A: You can iterate over an array using a for loop or an enhanced for loop. For example:
 for (int i = 0; i < nums.length; i++) {
     System.out.println(nums[i]);
@@ -69,6 +71,7 @@ for (int num : nums) {
 }
 
 
+*******************************************************************************************************
 
 Drawbacks:-
 - The memory allocation is contiguous.

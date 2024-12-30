@@ -1,3 +1,9 @@
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 A class in Java is a blueprint for creating objects. It defines a datatype by bundling data and methods that work on the data into one single unit. A class can contain fields (variables) and methods to describe the behavior of an object.
 
 Key Concepts:
@@ -18,7 +24,7 @@ Object:
 An object is an instance of a class.
 It is created using the new keyword followed by the class constructor.
 
-
+*******************************************************************************************************
 
 Class Declaration:
 
@@ -38,3 +44,4 @@ public static void main(String[] args) { ... }: This is the main method, which i
 Creating an Object:
 
 Student s1 = new Student();: This line creates an object s1 of the Student class using the new keyword and the class constructor Student(). This allocates memory for the new object and initializes its fields.
+

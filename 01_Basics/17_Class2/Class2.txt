@@ -1,8 +1,15 @@
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 Assumptions:
 There is a Calculator class with an add method that takes two integers as parameters and returns their sum.
 The main method is part of a class, likely named Class2.
 
-Explanation:
+*******************************************************************************************************
+
 Class Declaration:
 
 public class Class2 { ... }: This defines a public class named Class2. This class contains the main method, which is the entry point of the Java application.
@@ -22,7 +29,9 @@ int result = calc.add(4, 5);: Calls the add method of the Calculator class on th
 Commented Out Code:
 
 // calc.add();: This line is commented out. If uncommented, it would attempt to call an add method with no arguments, which is not defined in the provided context.
+
 // int result = calc.add();: This line is commented out. If uncommented, it would attempt to call an add method with no arguments and assign the result to result, which is not defined in the provided context.
+
 // int result = num1 + num2;: This line is commented out. If uncommented, it would attempt to add num1 and num2 and assign the result to result. However, num1 is not defined in the provided context.
 
 Printing the Result:

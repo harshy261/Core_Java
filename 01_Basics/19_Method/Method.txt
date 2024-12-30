@@ -1,3 +1,9 @@
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 Concept of Methods in Java:
 A method in Java is a block of code that performs a specific task. Methods are used to define the behavior of objects created from a class. They allow code to be reused and organized in a modular way.
 
@@ -19,51 +25,35 @@ Method Body:
 
 The method body contains the code that defines the behavior of the method.
 
-
-Explanation:
-Class Declaration:
-
-class Computer { ... }: This defines a class named Computer. This class contains two methods: playMusic and getMeAPen.
-Method playMusic:
-
-public void playMusic() { ... }: This method has a return type of void, meaning it does not return any value. It prints "Music Playing..." to the console when called.
-Method getMeAPen:
-
-public String getMeAPen(int cost) { ... }: This method has a return type of String, meaning it returns a string value. It takes an integer parameter cost. If cost is greater than or equal to 10, it returns "Pen"; otherwise, it returns "Nothing".
-Public Class Method:
-
-public class Method { ... }: This defines a public class named Method. This class contains the main method, which is the entry point of the Java application.
-
-Main Method:
-
-public static void main(String[] args) { ... }: This is the main method. When you run the program, the code inside this method is executed.
-Computer obj = new Computer();: Creates an object obj of the Computer class.
-obj.playMusic();: Calls the playMusic method on the obj object, which prints "Music Playing..." to the console.
-String src = obj.getMeAPen(10);: Calls the getMeAPen method on the obj object with the argument 10. The method returns "Pen", which is assigned to the variable src.
-System.out.println(src);: Prints the value of src to the console, which is "Pen".
-
+*******************************************************************************************************
 
 Relevant Interview Questions and Answers:
+
 Q: What is a method in Java?
-
 A: A method in Java is a block of code that performs a specific task. It is defined within a class and can be called to execute the code it contains.
+
+
 Q: What is the difference between a method and a function?
-
 A: In Java, methods are functions that are defined within a class. The term "method" is used to emphasize that the function is associated with an object.
+
+
 Q: What is the purpose of the void return type?
-
 A: The void return type indicates that the method does not return any value.
+
+
 Q: How do you call a method in Java?
-
 A: A method is called using the dot notation on an object of the class. For example, obj.methodName().
-Q: Can a method return multiple values?
 
+
+Q: Can a method return multiple values?
 A: A method can return only one value. However, you can return an object or an array that contains multiple values.
 
+
 Q: What is method overloading?
-
 A: Method overloading is a feature in Java that allows a class to have multiple methods with the same name but different parameters (different type, number, or both).
-Q: What is the difference between a static method and an instance method?
 
+
+Q: What is the difference between a static method and an instance method?
 A: A static method belongs to the class and can be called without creating an object of the class. An instance method belongs to an object and requires an object to be called.
 
+*******************************************************************************************************

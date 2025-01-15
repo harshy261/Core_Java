@@ -1,35 +1,46 @@
-Concept of Encapsulation in Java:
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 Encapsulation is one of the fundamental principles of Object-Oriented Programming (OOP). It refers to the bundling of data (variables) and methods (functions) that operate on the data into a single unit, called a class. Encapsulation helps to protect the data from unauthorized access and modification by restricting access to the internal state of the object.
 
-Key Concepts:
 Data Hiding:
-
 Encapsulation allows you to hide the internal state of an object and only expose a controlled interface to the outside world. This is achieved by making the data members (variables) private and providing public getter and setter methods to access and modify the data.
+
 Controlled Access:
-
 By using getter and setter methods, you can control how the data is accessed and modified. This ensures that the data is always in a valid state.
-Improved Maintainability:
 
+Improved Maintainability:
 Encapsulation makes the code more maintainable and flexible. Changes to the internal implementation of a class do not affect the code that uses the class, as long as the public interface remains the same.
 
 
+*******************************************************************************************************
 
 Relevant Interview Questions and Answers:
+
 Q: What is encapsulation in Java?
-
 A: Encapsulation is the bundling of data (variables) and methods (functions) that operate on the data into a single unit, called a class. It helps to protect the data from unauthorized access and modification by restricting access to the internal state of the object.
+
+
 Q: How do you achieve encapsulation in Java?
-
 A: Encapsulation is achieved by making the data members (variables) private and providing public getter and setter methods to access and modify the data.
+
+
 Q: What are the benefits of encapsulation?
-
 A: The benefits of encapsulation include data hiding, controlled access, improved maintainability, and flexibility. It ensures that the data is always in a valid state and makes the code more maintainable and flexible.
+
+
 Q: Can you access private variables directly in Java?
-
 A: No, private variables cannot be accessed directly from outside the class. They can only be accessed through public getter and setter methods.
+
+
 Q: What is the difference between encapsulation and abstraction?
-
 A: Encapsulation is the bundling of data and methods into a single unit and restricting access to the internal state of the object. Abstraction is the process of hiding the implementation details and showing only the functionality to the user. Encapsulation is a way to achieve abstraction.
-Q: Why are getter and setter methods used in Java?
 
+
+Q: Why are getter and setter methods used in Java?
 A: Getter and setter methods are used to provide controlled access to the private variables of a class. They allow you to read and modify the values of the private variables while ensuring that the data is always in a valid state.
+
+*******************************************************************************************************

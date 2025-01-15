@@ -1,35 +1,38 @@
-Concept of Getters and Setters in Java:
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 In Java, getters and setters are methods used to access and modify the private variables of a class. They provide a way to control how the variables are accessed and updated, ensuring that the data remains consistent and valid.
 
-Key Concepts:
 Encapsulation:
-
 Getters and setters are part of the encapsulation principle in object-oriented programming. They help to hide the internal state of an object and provide controlled access to it.
+
 Getter Methods:
-
 Getter methods are used to retrieve the value of a private variable. They are typically named getVariableName().
+
 Setter Methods:
-
 Setter methods are used to update the value of a private variable. They are typically named setVariableName().
-Data Validation:
 
+Data Validation:
 Setters can include validation logic to ensure that the data being set is valid. This helps to maintain the integrity of the object's state.
 
 
-
-
-
-
+*******************************************************************************************************
 
 Relevant Interview Questions and Answers:
+
+
 Q: What are getters and setters in Java?
-
 A: Getters and setters are methods used to access and modify the private variables of a class. Getters retrieve the value of a variable, while setters update the value of a variable.
+
+
 Q: Why are getters and setters used in Java?
-
 A: Getters and setters are used to provide controlled access to the private variables of a class. They help to maintain the integrity of the object's state by allowing validation and encapsulation.
-Q: How do you define a getter method in Java?
 
+
+Q: How do you define a getter method in Java?
 A: A getter method is defined using the public keyword and is typically named getVariableName(). For example:
 public int getAge() {
     return age;
@@ -37,14 +40,13 @@ public int getAge() {
 
 
 Q: How do you define a setter method in Java?
-
 A: A setter method is defined using the public keyword and is typically named setVariableName(). For example:
 public void setAge(int age) {
     this.age = age;
 }
 
-Q: Can setters include validation logic?
 
+Q: Can setters include validation logic?
 A: Yes, setters can include validation logic to ensure that the data being set is valid. This helps to maintain the integrity of the object's state. For example:
 public void setAge(int age) {
     if (age > 0) {
@@ -54,6 +56,7 @@ public void setAge(int age) {
 
 
 Q: What is the benefit of using getters and setters over direct access to variables?
-
 A: Using getters and setters provides controlled access to the variables, allowing for validation and encapsulation. This helps to maintain the integrity of the object's state and makes the code more maintainable and flexible.
 
+
+*******************************************************************************************************

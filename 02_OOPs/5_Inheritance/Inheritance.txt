@@ -1,57 +1,66 @@
-Concept of Inheritance in Java:
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 Inheritance is a fundamental concept in object-oriented programming (OOP) that allows one class to inherit the properties and methods of another class. The class that inherits is called the "subclass" or "child class," and the class being inherited from is called the "superclass" or "parent class." Inheritance promotes code reuse and establishes a natural hierarchy between classes.
 
-Key Concepts:
 Superclass and Subclass:
-
 The superclass (parent class) is the class whose properties and methods are inherited.
 The subclass (child class) is the class that inherits the properties and methods of the superclass.
+
 extends Keyword:
-
 In Java, the extends keyword is used to indicate that a class is inheriting from another class.
-Method Overriding:
 
+Method Overriding:
 A subclass can provide a specific implementation of a method that is already defined in its superclass. This is known as method overriding.
 
+*******************************************************************************************************
 
 Types of Inheritance:
-Single Inheritance:
 
+Single Inheritance:
 A class inherits from one superclass. This is the most common type of inheritance in Java.
 Example: class B extends A { ... }
-Multilevel Inheritance:
 
+Multilevel Inheritance:
 A class inherits from a superclass, and another class inherits from that subclass, forming a chain.
 Example: class B extends A { ... } and class C extends B { ... }
-Hierarchical Inheritance:
 
+Hierarchical Inheritance:
 Multiple classes inherit from the same superclass.
 Example: class B extends A { ... } and class C extends A { ... }
 
 
-
-
+*******************************************************************************************************
 
 Relevant Interview Questions and Answers:
+
 Q: What is inheritance in Java?
-
 A: Inheritance is a mechanism in Java that allows one class to inherit the properties and methods of another class. It promotes code reuse and establishes a natural hierarchy between classes.
-Q: What are the types of inheritance in Java?
 
+
+Q: What are the types of inheritance in Java?
 A: The types of inheritance in Java are:
 Single Inheritance: A class inherits from one superclass.
 Multilevel Inheritance: A class inherits from a superclass, and another class inherits from that subclass.
 Hierarchical Inheritance: Multiple classes inherit from the same superclass.
+
+
 Q: What is the extends keyword used for in Java?
-
 A: The extends keyword is used to indicate that a class is inheriting from another class. For example, class B extends A { ... } means that class B is inheriting from class A.
+
+
 Q: Can a subclass override a method from its superclass?
-
 A: Yes, a subclass can provide a specific implementation of a method that is already defined in its superclass. This is known as method overriding.
-Q: What is the difference between method overloading and method overriding?
 
+
+Q: What is the difference between method overloading and method overriding?
 A: Method overloading occurs when multiple methods in the same class have the same name but different parameters. Method overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass.
 
-Q: Can a subclass inherit private members of its superclass?
 
+Q: Can a subclass inherit private members of its superclass?
 A: No, a subclass cannot inherit private members (variables or methods) of its superclass. However, it can access them through public or protected getter and setter methods.
+
+*******************************************************************************************************

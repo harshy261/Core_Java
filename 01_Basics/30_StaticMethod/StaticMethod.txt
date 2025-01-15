@@ -1,7 +1,11 @@
-Concept of Static Methods in Java:
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 In Java, a static method is a method that belongs to the class rather than to any specific instance of the class. This means that you can call a static method without creating an instance of the class. Static methods are used when you want to perform an operation that does not depend on the state of an instance of the class.
 
-Key Concepts:
 Class-Level Method:
 
 A static method is declared using the static keyword and is shared among all instances of the class.
@@ -13,32 +17,36 @@ Accessing Static Methods:
 Static methods can access other static methods and static variables directly. However, they cannot access instance variables or instance methods directly.
 
 
-
+*******************************************************************************************************
 
 
 Relevant Interview Questions and Answers:
+
 Q: What is a static method in Java?
-
 A: A static method in Java is a method that belongs to the class rather than to any specific instance of the class. It can be called without creating an instance of the class.
-Q: How do you declare a static method in Java?
 
+
+Q: How do you declare a static method in Java?
 A: A static method is declared using the static keyword. For example:
 static void myMethod() {
     // method body
 }
 
 Q: How is a static method different from an instance method?
-
 A: An instance method belongs to an instance of the class and can access instance variables and methods directly. A static method belongs to the class and can only access static variables and methods directly. It cannot access instance variables or methods directly.
-Q: How do you call a static method in Java?
 
+
+Q: How do you call a static method in Java?
 A: A static method can be called directly using the class name, without creating an instance of the class. For example:
 MyClass.myStaticMethod();
 
+
 Q: Can a static method access instance variables or methods?
-
 A: No, a static method cannot access instance variables or methods directly. It can only access static variables and methods directly. To access instance variables or methods, a static method must use an object reference.
-Q: What are the use cases for static methods?
 
+
+Q: What are the use cases for static methods?
 A: Static methods are useful for utility or helper methods that perform operations not dependent on instance variables. They are also used for factory methods that create instances of a class.
 
+
+*******************************************************************************************************

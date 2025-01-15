@@ -1,3 +1,9 @@
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 Concept of StringBuffer in Java:
 In Java, StringBuffer is a class used to create mutable (modifiable) sequences of characters. Unlike String, which is immutable, StringBuffer allows you to modify the content without creating new objects. This makes StringBuffer more efficient for operations that involve frequent modifications, such as appending, inserting, or deleting characters.
 
@@ -13,17 +19,20 @@ Thread Safety:
 StringBuffer is synchronized, meaning it is thread-safe. Multiple threads can safely modify a StringBuffer object without causing data corruption.
 
 
+*******************************************************************************************************
 
 
 Relevant Interview Questions and Answers:
+
 Q: What is StringBuffer in Java?
-
 A: StringBuffer is a class in Java used to create mutable sequences of characters. It allows you to modify the content, length, and capacity of the sequence without creating new objects.
+
+
 Q: How does StringBuffer differ from String?
-
 A: String is immutable, meaning its content cannot be changed once created. StringBuffer is mutable, allowing you to modify its content without creating new objects. StringBuffer is more efficient for operations that involve frequent modifications.
-Q: What are some common methods of the StringBuffer class?
 
+
+Q: What are some common methods of the StringBuffer class?
 A: Some common methods of the StringBuffer class include:
 append(String str): Appends the specified string to the StringBuffer.
 insert(int offset, String str): Inserts the specified string at the specified position.
@@ -32,14 +41,16 @@ reverse(): Reverses the sequence of characters.
 toString(): Converts the StringBuffer to a String.
 
 
-
 Q: Is StringBuffer thread-safe?
-
 A: Yes, StringBuffer is synchronized, meaning it is thread-safe. Multiple threads can safely modify a StringBuffer object without causing data corruption.
+
+
 Q: What is the difference between StringBuffer and StringBuilder?
-
 A: Both StringBuffer and StringBuilder are used to create mutable sequences of characters. The main difference is that StringBuffer is synchronized and thread-safe, while StringBuilder is not synchronized and is therefore faster but not thread-safe.
-Q: How do you ensure the capacity of a StringBuffer?
 
+
+Q: How do you ensure the capacity of a StringBuffer?
 A: You can use the ensureCapacity(int minimumCapacity) method to ensure that the capacity of a StringBuffer is at least the specified minimum capacity. If the current capacity is less than the specified minimum, it is increased.
 
+
+*******************************************************************************************************

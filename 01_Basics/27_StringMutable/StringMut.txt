@@ -1,3 +1,9 @@
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 Concept of String Immutability and String Pool in Java:
 In Java, strings are immutable, meaning once a String object is created, its value cannot be changed. Any modification to a string results in the creation of a new String object. Additionally, Java uses a special memory area called the "string pool" to manage string literals efficiently.
 
@@ -10,28 +16,36 @@ String Pool:
 The string pool is a special memory area in the Java heap where string literals are stored. When a string literal is created, the JVM checks the string pool to see if an identical string already exists. If it does, the reference to the existing string is returned. If not, a new string is created and added to the pool.
 
 
+*******************************************************************************************************
 
 Relevant Interview Questions and Answers:
+
+
 Q: What does it mean that strings are immutable in Java?
-
 A: Strings in Java are immutable, meaning once a String object is created, its value cannot be changed. Any modification to a string results in the creation of a new String object.
+
+
 Q: What is the string pool in Java?
-
 A: The string pool is a special memory area in the Java heap where string literals are stored. When a string literal is created, the JVM checks the string pool to see if an identical string already exists. If it does, the reference to the existing string is returned. If not, a new string is created and added to the pool.
-Q: How does the == operator differ from the equals() method when comparing strings?
 
+
+Q: How does the == operator differ from the equals() method when comparing strings?
 A: The == operator compares the reference (memory address) of the strings, while the equals() method compares the actual content of the strings. For example:
 String str1 = new String("Hello");
 String str2 = new String("Hello");
 System.out.println(str1 == str2); // false, different references
 System.out.println(str1.equals(str2)); // true, same content
 
-Q: Why is string immutability important in Java?
 
+Q: Why is string immutability important in Java?
 A: String immutability is important for several reasons:
 Security: Immutable strings are safe from modification, which is important for security-sensitive applications.
 Performance: String immutability allows for the use of the string pool, which can improve performance and reduce memory usage.
 Thread Safety: Immutable strings are inherently thread-safe, as their values cannot be changed.
-Q: Can you modify a string in Java?
 
+
+Q: Can you modify a string in Java?
 A: No, you cannot modify a string in Java. Any modification to a string results in the creation of a new String object. If you need a mutable sequence of characters, you can use StringBuilder or StringBuffer.
+
+
+*******************************************************************************************************

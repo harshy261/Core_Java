@@ -1,9 +1,12 @@
-Concept of Polymorphism in Java:
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 Polymorphism is a fundamental concept in object-oriented programming (OOP) that allows objects to be treated as instances of their parent class rather than their actual class. The term "polymorphism" means "many forms," and it allows the same method or operator to behave differently based on the context.
 
-Key Concepts:
 Compile-Time Polymorphism (Method Overloading):
-
 Compile-time polymorphism, also known as method overloading, occurs when multiple methods in the same class have the same name but different parameters (different type, number, or both). The method to be called is determined at compile time based on the method signature.
 Example:
 class Calculator {
@@ -17,7 +20,6 @@ class Calculator {
 }
 
 Run-Time Polymorphism (Method Overriding):
-
 Run-time polymorphism, also known as method overriding, occurs when a subclass provides a specific implementation of a method that is already defined in its superclass. The method to be called is determined at runtime based on the object's actual type.
 Example:
 class Animal {
@@ -42,26 +44,34 @@ class Cat extends Animal {
 
 
 
+*******************************************************************************************************
 
 
 Relevant Interview Questions and Answers:
+
 Q: What is polymorphism in Java?
-
 A: Polymorphism in Java is the ability of an object to take on many forms. It allows the same method or operator to behave differently based on the context, enabling objects to be treated as instances of their parent class rather than their actual class.
-Q: What are the types of polymorphism in Java?
 
+
+Q: What are the types of polymorphism in Java?
 A: The types of polymorphism in Java are:
 Compile-Time Polymorphism (Method Overloading)
 Run-Time Polymorphism (Method Overriding)
+
+
 Q: What is method overloading?
-
 A: Method overloading is a form of compile-time polymorphism where multiple methods in the same class have the same name but different parameters (different type, number, or both). The method to be called is determined at compile time based on the method signature.
+
+
 Q: What is method overriding?
-
 A: Method overriding is a form of run-time polymorphism where a subclass provides a specific implementation of a method that is already defined in its superclass. The method to be called is determined at runtime based on the object's actual type.
+
+
 Q: Can you override a static method in Java?
-
 A: No, static methods cannot be overridden in Java. Static methods belong to the class, not to any specific instance, and method overriding is based on instance methods.
-Q: What is the @Override annotation used for?
 
+
+Q: What is the @Override annotation used for?
 A: The @Override annotation is used to indicate that a method is intended to override a method in the superclass. It helps to catch errors at compile time if the method does not correctly override a method in the superclass.
+
+*******************************************************************************************************

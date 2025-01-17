@@ -1,36 +1,46 @@
-Concept of Dynamic Method Dispatch in Java:
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
 Dynamic Method Dispatch, also known as runtime polymorphism, is a mechanism in Java that allows a method to be called based on the actual object's type at runtime rather than the reference type. This enables Java to determine which method implementation to execute when a method is called on an object reference.
 
-Key Concepts:
 Polymorphism:
-
 Polymorphism allows objects to be treated as instances of their parent class rather than their actual class. This enables a single method to behave differently based on the object's actual type.
+
 Method Overriding:
-
 Method overriding is when a subclass provides a specific implementation of a method that is already defined in its superclass. The overridden method in the subclass should have the same name, return type, and parameters as the method in the superclass.
-Dynamic Binding:
 
+Dynamic Binding:
 Dynamic binding is the process of linking a method call to the method implementation at runtime. This allows Java to determine which method to execute based on the actual object's type.
 
 
+*******************************************************************************************************
 
 
 Relevant Interview Questions and Answers:
+
 Q: What is dynamic method dispatch in Java?
-
 A: Dynamic method dispatch, also known as runtime polymorphism, is a mechanism in Java that allows a method to be called based on the actual object's type at runtime rather than the reference type. This enables Java to determine which method implementation to execute when a method is called on an object reference.
+
+
 Q: How does dynamic method dispatch work in Java?
-
 A: Dynamic method dispatch works through method overriding and dynamic binding. When a method is called on an object reference, Java determines the actual object's type at runtime and calls the appropriate overridden method.
+
+
 Q: What is the difference between method overloading and method overriding?
-
 A: Method overloading occurs when multiple methods in the same class have the same name but different parameters. Method overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass.
+
+
 Q: Can you override a static method in Java?
-
 A: No, static methods cannot be overridden in Java. Static methods belong to the class, not to any specific instance, and method overriding is based on instance methods.
+
+
 Q: What is the purpose of the @Override annotation?
-
 A: The @Override annotation is used to indicate that a method is intended to override a method in the superclass. It helps to catch errors at compile time if the method does not correctly override a method in the superclass.
-Q: Why is dynamic method dispatch important in Java?
 
+
+Q: Why is dynamic method dispatch important in Java?
 A: Dynamic method dispatch is important because it enables runtime polymorphism, allowing Java to determine which method to call based on the actual object's type. This makes the code more flexible and extensible.
+
+*******************************************************************************************************

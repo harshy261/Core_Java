@@ -1,9 +1,12 @@
-Concept of final Keyword in Java:
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 The final keyword in Java is used to restrict the modification of variables, methods, and classes. It can be applied to variables, methods, and classes to enforce certain constraints and ensure that they cannot be changed or overridden.
 
-Key Concepts:
 Final Variable:
-
 A final variable is a constant. Once it is assigned a value, it cannot be changed.
 Example:
 public class FinalVariableExample {
@@ -15,7 +18,6 @@ public class FinalVariableExample {
 }
 
 Final Method:
-
 A final method cannot be overridden by subclasses. This ensures that the method's implementation remains unchanged in any subclass.
 Example
 class A {
@@ -31,7 +33,6 @@ class B extends A {
 }
 
 Final Class:
-
 A final class cannot be subclassed. This means no other class can extend a final class.
 Example:
 public final class FinalClassExample {
@@ -43,25 +44,33 @@ public final class FinalClassExample {
 // class SubClass extends FinalClassExample { // This will cause a compilation error
 // }
 
+*******************************************************************************************************
 
 Relevant Interview Questions and Answers:
+
 Q: What is a final variable in Java?
-
 A: A final variable is a constant. Once it is assigned a value, it cannot be changed. It ensures that the variable's value remains constant throughout the program.
+
+
 Q: What is a final method in Java?
-
 A: A final method is a method that cannot be overridden by subclasses. This ensures that the method's implementation remains unchanged in any subclass.
+
+
 Q: What is a final class in Java?
-
 A: A final class is a class that cannot be subclassed. This means no other class can extend a final class, ensuring that the class's implementation remains unchanged.
+
+
 Q: Can you reassign a value to a final variable?
-
 A: No, you cannot reassign a value to a final variable once it has been assigned. Attempting to do so will cause a compilation error.
+
+
 Q: Can you override a final method in Java?
-
 A: No, you cannot override a final method in Java. Attempting to do so will cause a compilation error.
-Q: Can you extend a final class in Java?
 
+
+Q: Can you extend a final class in Java?
 A: No, you cannot extend a final class in Java. Attempting to do so will cause a compilation error.
 
 
+
+*******************************************************************************************************

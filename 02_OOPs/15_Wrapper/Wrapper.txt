@@ -1,7 +1,12 @@
-Concept of Wrapper Classes in Java:
+*******************************************************************************************************
+
+                                            Explanation:
+
+*******************************************************************************************************
+
 In Java, wrapper classes are used to convert primitive data types into objects. Each primitive data type (like int, char, double, etc.) has a corresponding wrapper class (like Integer, Character, Double, etc.). Wrapper classes provide a way to use primitive data types as objects, which is useful in many situations, such as when working with collections that require objects.
 
-Key Concepts:
+
 Primitive Data Types and Wrapper Classes:
 
 Each primitive data type has a corresponding wrapper class:
@@ -26,32 +31,38 @@ Auto-unboxing: The automatic conversion of a wrapper class object back into its 
 
 
 
+*******************************************************************************************************
 
 
 Relevant Interview Questions and Answers:
+
 Q: What is a wrapper class in Java?
-
 A: A wrapper class in Java is a class that encapsulates (wraps) a primitive data type into an object. Each primitive data type has a corresponding wrapper class, such as Integer for int, Character for char, and Double for double.
+
+
 Q: What is the purpose of wrapper classes in Java?
-
 A: Wrapper classes allow primitive data types to be used as objects. This is useful in situations where objects are required, such as when working with collections like ArrayList that can only store objects.
+
+
 Q: What is autoboxing in Java?
-
 A: Autoboxing is the automatic conversion of a primitive data type into its corresponding wrapper class object by the Java compiler. For example, converting an int to an Integer.
+
+
 Q: What is auto-unboxing in Java?
-
 A: Auto-unboxing is the automatic conversion of a wrapper class object back into its corresponding primitive data type by the Java compiler. For example, converting an Integer to an int.
-Q: Can you give an example of autoboxing and auto-unboxing?
 
+
+Q: Can you give an example of autoboxing and auto-unboxing?
 A: Yes, an example of autoboxing and auto-unboxing is:
 int num = 7;
 Integer num1 = num; // Autoboxing
 int num2 = num1; // Auto-unboxing
 
 
-
 Q: How do you convert a String to a primitive int in Java?
-
 A: You can convert a String to a primitive int using the Integer.parseInt() method. For example:
 String str = "12";
 int num = Integer.parseInt(str);
+
+
+*******************************************************************************************************
